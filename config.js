@@ -14,6 +14,6 @@ const firebaseConfig = {
 
 const app = firebase.initializeApp(firebaseConfig);
 const db = app.firestore();
-const Form = db.collection("Forms"); // Adjust 'Form' to match your Firestore collection name
+const Form = db.collection("Forms"); 
 
 module.exports = Form;
